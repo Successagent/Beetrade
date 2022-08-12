@@ -1,8 +1,6 @@
-import Header from "./Components/Header";
-import Main from "./Components/Main";
-
 import { useState } from "react";
-import Footer from "./Components/Footer";
+
+import Dashboard from "./Components/Dashboard";
 function App() {
   const [visibility, setVisibility] = useState(false);
 
@@ -11,9 +9,7 @@ function App() {
   };
   return (
     <>
-      <Header showMenu={showMenu} visibility={visibility} />
-      <Main />
-      <Footer/>
+      <Dashboard />
     </>
   );
 }

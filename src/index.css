@@ -309,6 +309,11 @@ main > section:nth-child(2) {
   color: #6b6969;
 }
 
+.bell {
+  display: block !important;
+  margin-left: 850px;
+}
+
 .header > img {
   display: none;
 }
@@ -533,6 +538,97 @@ footer li {
   margin-bottom: 20px;
 }
 
+.dashboard .header {
+  background: linear-gradient(90.92deg, #131a35 49.21%, #131a35 97.45%);
+}
+
+.dashboard button {
+  background: #1c1c1c;
+  width: 165px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #e0e0e0;
+}
+
+.dashboard-btn-con {
+  background: linear-gradient(100.29deg, #f8b327 -8.61%, #4503ff 118.58%);
+  padding: 1px;
+  border-radius: 8px;
+}
+
+.dashboard-con {
+  background-color: #131a35;
+  display: flex;
+}
+
+.dashboard-nav {
+  background-color: #131a35;
+  width: 20%;
+  padding-bottom: 50px;
+}
+
+.dashboard-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 25px;
+  padding-top: 20px;
+}
+
+.dashboard-nav ul h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.016em;
+  text-transform: capitalize;
+  color: #d1d1d1;
+  padding-left: 20px;
+}
+
+.brown-bg {
+  background: rgba(247, 185, 62, 0.25);
+  border-radius: 12px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(194, 194, 194, 0.26);
+}
+
+.dashboard-sec {
+  width: 75%;
+  background: linear-gradient(
+    180deg,
+    rgba(23, 23, 23, 0.5) 0%,
+    rgba(255, 60, 212, 0.5) 100%
+  );
+  border-radius: 24px 0px 0px 0px;
+}
+
+.dashboard-sec {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.candle-stick {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
 @media (max-width: 375px) {
   .header {
     align-items: center;
@@ -664,8 +760,8 @@ footer li {
 
   .main-part-two button {
     display: block;
-   width: 60%;
-   margin: 20px auto;
+    width: 60%;
+    margin: 20px auto;
   }
 
   .main-part-two > div:nth-child(1) {
